@@ -1,0 +1,22 @@
+{
+  "name": "time-to-rest",
+  "description": "A wall clock, counting till the end of work day",
+  "main": "index.html",
+  "authors": [
+    "Marius Bieliauskas"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/recallfx/time-to-rest",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "moment": "^2.12.0"
+  }
+}

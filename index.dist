@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Time to rest</title>
+    <meta name="description" content="A wall clock, counting time till the end of the work day">
+
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div id="boxBackground" class="boxMargin">
+        <div class="box">
+            <div style="text-align:center; height:25%;"></div>
+            <div style="text-align:center;">
+                <div class="time text"><span id="pbRemaining">00:00:00</span></div>
+                <div class="pbShell" id="pbShell1">
+                    <div class="pbOuterBar">
+                        <div class="pbInnerBar" id="pbBar"><span>&nbsp;</span></div>
+                        <div class="info text"><span id="pbInfo">Info</span></div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center; height:auto;"></div>
+        </div>
+    </div>
+    <div class="header text">
+        <span id="headerInfo">Header info</span>
+    </div>
+    <div class="footer text">
+        <span>© 2011 Marius Bieliauskas | <a href="http://mbieliau.lt">mbieliau.lt</a> | <a href="https://github.com/recallfx/time-to-rest">GitHub</a></span>
+    </div>
+
+</div>
+
+<script src="js/scripts.min.js"></script>
+
+<script type="text/javascript">
+    $(window).load(function () {
+        // App
+        App.start();
+    });
+</script>
+
+</body>
+</html>
