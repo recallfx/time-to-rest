@@ -25,12 +25,6 @@ $ bower install
 
 Development: `$ gulp serve-dev`, production: `$ gulp serve-dist`.
 
-## Tests
-
-```
-$ npm test
-```
-
 ## Things to improve
 
 > Make modules compatible with Browserify
